@@ -1,0 +1,229 @@
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+h2,
+h1 {
+  text-align: center;
+  color: goldenrod;
+}
+p {
+  border: 2px solid black;
+  background-color: lightgrey;
+  padding: 10px;
+  margin: 10px;
+}
+html {
+  font-size: 20px;
+  font-family: "Economica", sans-serif;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+li {
+  background-color: lightgrey;
+  width: 12 00px;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 17px;
+}
+/* table for parks */
+#parks tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+#parks tr:hover {
+  background-color: #ddd;
+}
+#parks {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#parks td,
+#parks th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#parks th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  float: none;
+  position: relative;
+  top: 5px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.desc {
+  padding: 6px;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  background-color: #f1f1f1;
+}
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a.active {
+  background-color: #4caf50;
+  color: white;
+}
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+.imagestyle1 {
+  width: 100px;
+  height: 60px;
+  position: right;
+  top: -32px;
+} /* move image upwards */
+
+/*for nav bar */
+#navul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1; /* nav bar needs to be in front of text*/
+}
+#navli {
+  float: left;
+}
+#navli a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+#navli a:hover:not(.active) {
+  background-color: #4caf50;
+}
+div#myDIV {
+  background-color: white;
+  width: auto;
+  height: auto;
+  border: 1px solid;
+  padding: 24px 64px;
+  box-shadow: 5px 10px #888888;
+}
+#poititle {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  background-color: #f1f1f1;
+}
+
+/* page 2 style */
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 50%;
+}
+@media only screen and (max-width: 1400px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .responsive {
+    width: 10%;
+  }
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.bgsetup {
+  background-image: url("bg1.jpg");
+}
+.bgsetup2 {
+  background-image: url("bg.png");
+}
+.imagestyle2 {
+  border: 3px solid black;
+  width: 890px;
+  height: 410px;
+}
+.imagestyle3 {
+  width: 100px;
+  height: 60px;
+}
+.imagestyle4 {
+  width: 600px;
+  height: 500px;
+}
+
+div.hangmanBox {
+  margin: auto;
+  width: 700px;
+  border: 15px solid black;
+  padding: 50px;
+  background-color: #f1f1f1;
+}
+.bgsetuphangman {
+  background-image: url("./images/hangmanbg.png");
+}
